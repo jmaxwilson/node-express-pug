@@ -1,0 +1,14 @@
+{
+  "name": "node-express-pug",
+  "version": "1.0.0",
+  "description": "Node Express Pug App in a Docker Container",
+  "author": "J. Max Wilson <jmaxwilson@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "pug": "^2.0.3"
+  }
+}

@@ -12,8 +12,7 @@ app.set('view engine', 'pug');
 
 
 app.get('/', (request, response) => {
-  console.log('rendering index template');
-  response.render('index', { title: 'Hey', message: 'Hello there!' });
+  response.render('index', { title: 'Home', message: 'Welcome! This is the home page.' });
 });
 
 app.get('/user/:user_id', (request, response) => {

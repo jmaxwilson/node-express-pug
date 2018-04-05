@@ -1,8 +1,9 @@
 version: '2'
 services:
 
-  web:
-    image: jmaxwilson/node:latest
+  webapp:
+    build: .
+    image: jmaxwilson/node-express-pug:latest
     volumes:
       - $PWD/app:/usr/src/app
     ports:
